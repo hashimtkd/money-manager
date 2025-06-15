@@ -20,7 +20,6 @@ class CategoryProvider with ChangeNotifier {
   void newCurrentIndexProvider(int newIndex) {
     currentIndexProvider = newIndex;
     if (newIndex == 0) {
-      print('transaction page');
     } else {
       categoryPages[1];
     }
